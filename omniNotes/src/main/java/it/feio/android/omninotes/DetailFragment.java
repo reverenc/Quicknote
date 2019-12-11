@@ -1080,15 +1080,15 @@ public class DetailFragment extends BaseFragment implements OnReminderPickedList
       case R.id.menu_untrash:
         trashNote(false);
         break;
-      case R.id.menu_discard_changes:
-        discard();
-        break;
+//      case R.id.menu_discard_changes:
+//        discard();
+//        break;
       case R.id.menu_delete:
         deleteNote();
         break;
-      case R.id.menu_note_info:
-        showNoteInfo();
-        break;
+//      case R.id.menu_note_info:
+//        showNoteInfo();
+//        break;
       default:
         LogDelegate.w("Invalid menu option selected");
     }
